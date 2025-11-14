@@ -8,6 +8,7 @@ com\elpais\pages\HomePage.class
 com\elpais\utils\DriverFactory.class
 com\elpais\pages\OpinionPage.class
 com\elpais\model\ArticleData.class
+com\elpais\utils\BrowserStackListener.class
 com\elpais\pages\BasePage.class
 com\elpais\services\AnalysisService.class
 com\elpais\services\TranslationService.class
@@ -18,7 +19,6 @@ com\elpais\steps\TranslationAnalysisSteps.class
 com\elpais\context\ScenarioContext.class
 com\elpais\steps\GenericSteps.class
 com\elpais\utils\ImageDownloader.class
-com\elpais\utils\Hooks.class
 com\elpais\utils\TextAnalyzer.class
 com\elpais\pages\ArticlePage.class
 com\elpais\utils\Config.class

@@ -11,64 +11,52 @@ public final class BrowserStackPresets {
 	public static List<Map<String, Object>> defaultCapabilities() {
 		List<Map<String, Object>> list = new ArrayList<>();
 
-		// Chrome Latest on Windows 11
-		Map<String, Object> winChrome = new HashMap<>();
-		winChrome.put("browserName", "Chrome");
-		winChrome.put("browserVersion", "latest");
-		winChrome.put("bstack:options", Map.of(
-				"os", "Windows",
-				"osVersion", "11",
-				"buildName", "ElPais BDD",
-				"sessionName", "Chrome Win11"
-		));
-		list.add(winChrome);
+		// Chrome - Latest
+		Map<String, Object> chrome = new HashMap<>();
+		chrome.put("browserName", "chrome");
+		chrome.put("browserVersion", "latest");
+		Map<String, Object> chromeOpts = new HashMap<>();
+		chromeOpts.put("os", "Windows");
+		chromeOpts.put("osVersion", "11");
+		chrome.put("bstack:options", chromeOpts);
+		list.add(chrome);
 
-		// Firefox Latest on Windows 11
-		Map<String, Object> winFirefox = new HashMap<>();
-		winFirefox.put("browserName", "Firefox");
-		winFirefox.put("browserVersion", "latest");
-		winFirefox.put("bstack:options", Map.of(
-				"os", "Windows",
-				"osVersion", "11",
-				"buildName", "ElPais BDD",
-				"sessionName", "Firefox Win11"
-		));
-		list.add(winFirefox);
+		// Firefox - Latest
+		Map<String, Object> firefox = new HashMap<>();
+		firefox.put("browserName", "firefox");
+		firefox.put("browserVersion", "latest");
+		Map<String, Object> firefoxOpts = new HashMap<>();
+		firefoxOpts.put("os", "Windows");
+		firefoxOpts.put("osVersion", "11");
+		firefox.put("bstack:options", firefoxOpts);
+		list.add(firefox);
 
-		// Safari on macOS
-		Map<String, Object> macSafari = new HashMap<>();
-		macSafari.put("browserName", "Safari");
-		macSafari.put("browserVersion", "latest");
-		macSafari.put("bstack:options", Map.of(
-				"os", "OS X",
-				"osVersion", "Sonoma",
-				"buildName", "ElPais BDD",
-				"sessionName", "Safari macOS"
-		));
-		list.add(macSafari);
+		// Safari - Latest
+		Map<String, Object> safari = new HashMap<>();
+		safari.put("browserName", "safari");
+		safari.put("browserVersion", "latest");
+		Map<String, Object> safariOpts = new HashMap<>();
+		safariOpts.put("os", "OS X");
+		safariOpts.put("osVersion", "Sonoma");
+		safari.put("bstack:options", safariOpts);
+		list.add(safari);
 
-		// Mobile - iPhone
-		Map<String, Object> ios = new HashMap<>();
-		ios.put("browserName", "iPhone");
-		ios.put("bstack:options", Map.of(
-				"deviceName", "iPhone 15",
-				"osVersion", "17",
-				"realMobile", "true",
-				"buildName", "ElPais BDD",
-				"sessionName", "iPhone 15 Safari"
-		));
-		list.add(ios);
+		// iPhone
+		Map<String, Object> iphone = new HashMap<>();
+		iphone.put("deviceName", "iPhone 15");
+		Map<String, Object> iphoneOpts = new HashMap<>();
+		iphoneOpts.put("realMobile", "true");
+		iphoneOpts.put("osVersion", "17");
+		iphone.put("bstack:options", iphoneOpts);
+		list.add(iphone);
 
-		// Mobile - Android
+		// Android
 		Map<String, Object> android = new HashMap<>();
-		android.put("browserName", "Android");
-		android.put("bstack:options", Map.of(
-				"deviceName", "Samsung Galaxy S23",
-				"osVersion", "13.0",
-				"realMobile", "true",
-				"buildName", "ElPais BDD",
-				"sessionName", "Galaxy S23 Chrome"
-		));
+		android.put("deviceName", "Samsung Galaxy S23");
+		Map<String, Object> androidOpts = new HashMap<>();
+		androidOpts.put("realMobile", "true");
+		androidOpts.put("osVersion", "13.0");
+		android.put("bstack:options", androidOpts);
 		list.add(android);
 
 		return list;

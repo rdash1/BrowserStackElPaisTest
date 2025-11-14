@@ -1,31 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="0" failed="5" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-14T16:19:23 IST" name="CucumberSuite" finished-at="2025-11-14T16:19:25 IST" duration-ms="2631">
+  <suite started-at="2025-11-14T16:09:06 IST" name="CucumberSuite" finished-at="2025-11-14T16:10:37 IST" duration-ms="91796">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.elpais.runners.CucumberTestRunner@15de0b3c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.elpais.runners.CucumberTestRunner@bccb269]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.elpais.runners.CucumberTestRunner@17f7cd29]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.elpais.runners.CucumberTestRunner@158a8276]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.elpais.runners.CucumberTestRunner@5fbe4146]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.elpais.runners.CucumberTestRunner@7c9d8e2]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.elpais.runners.CucumberTestRunner@e4487af]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.elpais.runners.CucumberTestRunner@c86b9e3]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.elpais.runners.CucumberTestRunner@37271612]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.elpais.runners.CucumberTestRunner@38102d01]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-11-14T16:19:23 IST" name="CucumberTests-iPhone" finished-at="2025-11-14T16:19:25 IST" duration-ms="2582">
+    <test started-at="2025-11-14T16:09:06 IST" name="CucumberTests-Android" finished-at="2025-11-14T16:10:25 IST" duration-ms="79564">
       <class name="com.elpais.runners.CucumberTestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.elpais.runners.CucumberTestRunner@158a8276]" started-at="2025-11-14T16:19:23 IST" name="setUpClass" finished-at="2025-11-14T16:19:23 IST" duration-ms="397" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.elpais.runners.CucumberTestRunner@38102d01]" started-at="2025-11-14T16:09:06 IST" name="setUpClass" finished-at="2025-11-14T16:09:06 IST" duration-ms="418" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5136d012]]>
+                <![CDATA[org.testng.TestRunner@3a6bb9bf]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.elpais.runners.CucumberTestRunner@158a8276]" started-at="2025-11-14T16:19:23 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-14T16:19:25 IST" duration-ms="2090" status="FAIL">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.elpais.runners.CucumberTestRunner@38102d01]" started-at="2025-11-14T16:09:06 IST" name="setBrowser" finished-at="2025-11-14T16:09:06 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[android]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.elpais.runners.CucumberTestRunner@38102d01]" started-at="2025-11-14T16:09:06 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-14T16:10:25 IST" duration-ms="78582" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -38,354 +49,40 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-TD6O78B', ip: '192.168.29.31']]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-TD6O78B', ip: '192.168.29.31'
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:152)
-at com.elpais.utils.DriverFactory.createRemoteDriver(DriverFactory.java:148)
-at com.elpais.utils.DriverFactory.getDriver(DriverFactory.java:86)
-at com.elpais.services.ArticleScrapingService.<init>(ArticleScrapingService.java:32)
-at com.elpais.steps.HomeSteps.openWebsiteInLanguage(HomeSteps.java:21)
-at com.elpais.steps.HomeSteps.openWebsiteInLanguageNumbered(HomeSteps.java:31)
-at ✽.[Step 1] I open the "elpais.com" website in "es" language(file:///C:/Users/Pc/Downloads/ELPais/ELPais/src/test/resources/features/el_pais_scrape.feature:8)
-Caused by: org.openqa.selenium.WebDriverException: Automate testing time expired.
-Build info: version: '4.25.0', revision: '8a8aea2337'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: driver.version: RemoteWebDriver
-remote stacktrace: 
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:59)
-at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:31)
-at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:120)
-at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-at java.base/java.util.stream.Streams$StreamBuilderImpl.tryAdvance(Streams.java:397)
-at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
-at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
-at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
-at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:122)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:152)
-at com.elpais.utils.DriverFactory.createRemoteDriver(DriverFactory.java:148)
-at com.elpais.utils.DriverFactory.getDriver(DriverFactory.java:86)
-at com.elpais.services.ArticleScrapingService.<init>(ArticleScrapingService.java:32)
-at com.elpais.steps.HomeSteps.openWebsiteInLanguage(HomeSteps.java:21)
-at com.elpais.steps.HomeSteps.openWebsiteInLanguageNumbered(HomeSteps.java:31)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
-at io.cucumber.java.Invoker.invoke(Invoker.java:24)
-at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
-at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
-at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
-at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
-at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
-at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
-at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
-at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
-at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
-at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
-at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
-at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
-at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.elpais.runners.CucumberTestRunner@158a8276]" started-at="2025-11-14T16:19:25 IST" name="tearDownClass" finished-at="2025-11-14T16:19:25 IST" duration-ms="42" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- com.elpais.runners.CucumberTestRunner -->
-    </test> <!-- CucumberTests-iPhone -->
-    <test started-at="2025-11-14T16:19:23 IST" name="CucumberTests-Edge" finished-at="2025-11-14T16:19:25 IST" duration-ms="2582">
-      <class name="com.elpais.runners.CucumberTestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.elpais.runners.CucumberTestRunner@17f7cd29]" started-at="2025-11-14T16:19:23 IST" name="setUpClass" finished-at="2025-11-14T16:19:23 IST" duration-ms="397" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@2beee7ff]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.elpais.runners.CucumberTestRunner@17f7cd29]" started-at="2025-11-14T16:19:23 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-14T16:19:25 IST" duration-ms="2090" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Scrape 5 articles from Opinión, translate es -> en, analyze repeated words >= 2"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Scrape and analyze El País Opinión articles"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-TD6O78B', ip: '192.168.29.31']]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-TD6O78B', ip: '192.168.29.31'
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:152)
-at com.elpais.utils.DriverFactory.createRemoteDriver(DriverFactory.java:148)
-at com.elpais.utils.DriverFactory.getDriver(DriverFactory.java:86)
-at com.elpais.services.ArticleScrapingService.<init>(ArticleScrapingService.java:32)
-at com.elpais.steps.HomeSteps.openWebsiteInLanguage(HomeSteps.java:21)
-at com.elpais.steps.HomeSteps.openWebsiteInLanguageNumbered(HomeSteps.java:31)
-at ✽.[Step 1] I open the "elpais.com" website in "es" language(file:///C:/Users/Pc/Downloads/ELPais/ELPais/src/test/resources/features/el_pais_scrape.feature:8)
-Caused by: org.openqa.selenium.WebDriverException: Automate testing time expired.
-Build info: version: '4.25.0', revision: '8a8aea2337'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: driver.version: RemoteWebDriver
-remote stacktrace: 
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:59)
-at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:31)
-at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:120)
-at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-at java.base/java.util.stream.Streams$StreamBuilderImpl.tryAdvance(Streams.java:397)
-at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
-at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
-at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
-at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:122)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:152)
-at com.elpais.utils.DriverFactory.createRemoteDriver(DriverFactory.java:148)
-at com.elpais.utils.DriverFactory.getDriver(DriverFactory.java:86)
-at com.elpais.services.ArticleScrapingService.<init>(ArticleScrapingService.java:32)
-at com.elpais.steps.HomeSteps.openWebsiteInLanguage(HomeSteps.java:21)
-at com.elpais.steps.HomeSteps.openWebsiteInLanguageNumbered(HomeSteps.java:31)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
-at io.cucumber.java.Invoker.invoke(Invoker.java:24)
-at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
-at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
-at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
-at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
-at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
-at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
-at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
-at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
-at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
-at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
-at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
-at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
-at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.elpais.runners.CucumberTestRunner@17f7cd29]" started-at="2025-11-14T16:19:25 IST" name="tearDownClass" finished-at="2025-11-14T16:19:25 IST" duration-ms="41" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- com.elpais.runners.CucumberTestRunner -->
-    </test> <!-- CucumberTests-Edge -->
-    <test started-at="2025-11-14T16:19:23 IST" name="CucumberTests-Android" finished-at="2025-11-14T16:19:25 IST" duration-ms="2582">
-      <class name="com.elpais.runners.CucumberTestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.elpais.runners.CucumberTestRunner@5fbe4146]" started-at="2025-11-14T16:19:23 IST" name="setUpClass" finished-at="2025-11-14T16:19:23 IST" duration-ms="397" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@5939a379]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.elpais.runners.CucumberTestRunner@5fbe4146]" started-at="2025-11-14T16:19:23 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-14T16:19:25 IST" duration-ms="2090" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Scrape 5 articles from Opinión, translate es -> en, analyze repeated words >= 2"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Scrape and analyze El País Opinión articles"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-TD6O78B', ip: '192.168.29.31']]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-TD6O78B', ip: '192.168.29.31'
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:152)
-at com.elpais.utils.DriverFactory.createRemoteDriver(DriverFactory.java:148)
-at com.elpais.utils.DriverFactory.getDriver(DriverFactory.java:86)
-at com.elpais.services.ArticleScrapingService.<init>(ArticleScrapingService.java:32)
-at com.elpais.steps.HomeSteps.openWebsiteInLanguage(HomeSteps.java:21)
-at com.elpais.steps.HomeSteps.openWebsiteInLanguageNumbered(HomeSteps.java:31)
-at ✽.[Step 1] I open the "elpais.com" website in "es" language(file:///C:/Users/Pc/Downloads/ELPais/ELPais/src/test/resources/features/el_pais_scrape.feature:8)
-Caused by: org.openqa.selenium.WebDriverException: Automate testing time expired.
-Build info: version: '4.25.0', revision: '8a8aea2337'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: driver.version: RemoteWebDriver
-remote stacktrace: 
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:59)
-at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:31)
-at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:120)
-at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-at java.base/java.util.stream.Streams$StreamBuilderImpl.tryAdvance(Streams.java:397)
-at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
-at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
-at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
-at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:122)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:152)
-at com.elpais.utils.DriverFactory.createRemoteDriver(DriverFactory.java:148)
-at com.elpais.utils.DriverFactory.getDriver(DriverFactory.java:86)
-at com.elpais.services.ArticleScrapingService.<init>(ArticleScrapingService.java:32)
-at com.elpais.steps.HomeSteps.openWebsiteInLanguage(HomeSteps.java:21)
-at com.elpais.steps.HomeSteps.openWebsiteInLanguageNumbered(HomeSteps.java:31)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
-at io.cucumber.java.Invoker.invoke(Invoker.java:24)
-at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
-at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
-at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
-at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
-at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
-at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
-at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
-at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
-at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
-at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
-at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
-at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
-at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.elpais.runners.CucumberTestRunner@5fbe4146]" started-at="2025-11-14T16:19:25 IST" name="tearDownClass" finished-at="2025-11-14T16:19:25 IST" duration-ms="41" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.elpais.runners.CucumberTestRunner@38102d01]" started-at="2025-11-14T16:10:25 IST" name="tearDownClass" finished-at="2025-11-14T16:10:25 IST" duration-ms="493" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- com.elpais.runners.CucumberTestRunner -->
     </test> <!-- CucumberTests-Android -->
-    <test started-at="2025-11-14T16:19:23 IST" name="CucumberTests-Firefox" finished-at="2025-11-14T16:19:25 IST" duration-ms="2582">
+    <test started-at="2025-11-14T16:09:06 IST" name="CucumberTests-iPhone" finished-at="2025-11-14T16:10:31 IST" duration-ms="85868">
       <class name="com.elpais.runners.CucumberTestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.elpais.runners.CucumberTestRunner@bccb269]" started-at="2025-11-14T16:19:23 IST" name="setUpClass" finished-at="2025-11-14T16:19:23 IST" duration-ms="397" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.elpais.runners.CucumberTestRunner@37271612]" started-at="2025-11-14T16:09:06 IST" name="setUpClass" finished-at="2025-11-14T16:09:06 IST" duration-ms="418" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@306cf3ea]]>
+                <![CDATA[org.testng.TestRunner@10959ece]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.elpais.runners.CucumberTestRunner@bccb269]" started-at="2025-11-14T16:19:23 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-14T16:19:25 IST" duration-ms="2090" status="FAIL">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.elpais.runners.CucumberTestRunner@37271612]" started-at="2025-11-14T16:09:06 IST" name="setBrowser" finished-at="2025-11-14T16:09:06 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iphone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.elpais.runners.CucumberTestRunner@37271612]" started-at="2025-11-14T16:09:06 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-14T16:10:31 IST" duration-ms="85352" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -398,114 +95,40 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-TD6O78B', ip: '192.168.29.31']]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-TD6O78B', ip: '192.168.29.31'
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:152)
-at com.elpais.utils.DriverFactory.createRemoteDriver(DriverFactory.java:148)
-at com.elpais.utils.DriverFactory.getDriver(DriverFactory.java:86)
-at com.elpais.services.ArticleScrapingService.<init>(ArticleScrapingService.java:32)
-at com.elpais.steps.HomeSteps.openWebsiteInLanguage(HomeSteps.java:21)
-at com.elpais.steps.HomeSteps.openWebsiteInLanguageNumbered(HomeSteps.java:31)
-at ✽.[Step 1] I open the "elpais.com" website in "es" language(file:///C:/Users/Pc/Downloads/ELPais/ELPais/src/test/resources/features/el_pais_scrape.feature:8)
-Caused by: org.openqa.selenium.WebDriverException: Automate testing time expired.
-Build info: version: '4.25.0', revision: '8a8aea2337'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: driver.version: RemoteWebDriver
-remote stacktrace: 
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:59)
-at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:31)
-at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:120)
-at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-at java.base/java.util.stream.Streams$StreamBuilderImpl.tryAdvance(Streams.java:397)
-at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
-at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
-at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
-at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:122)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:152)
-at com.elpais.utils.DriverFactory.createRemoteDriver(DriverFactory.java:148)
-at com.elpais.utils.DriverFactory.getDriver(DriverFactory.java:86)
-at com.elpais.services.ArticleScrapingService.<init>(ArticleScrapingService.java:32)
-at com.elpais.steps.HomeSteps.openWebsiteInLanguage(HomeSteps.java:21)
-at com.elpais.steps.HomeSteps.openWebsiteInLanguageNumbered(HomeSteps.java:31)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
-at io.cucumber.java.Invoker.invoke(Invoker.java:24)
-at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
-at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
-at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
-at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
-at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
-at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
-at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
-at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
-at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
-at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
-at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
-at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
-at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.elpais.runners.CucumberTestRunner@bccb269]" started-at="2025-11-14T16:19:25 IST" name="tearDownClass" finished-at="2025-11-14T16:19:25 IST" duration-ms="42" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.elpais.runners.CucumberTestRunner@37271612]" started-at="2025-11-14T16:10:31 IST" name="tearDownClass" finished-at="2025-11-14T16:10:31 IST" duration-ms="44" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- com.elpais.runners.CucumberTestRunner -->
-    </test> <!-- CucumberTests-Firefox -->
-    <test started-at="2025-11-14T16:19:23 IST" name="CucumberTests-Chrome" finished-at="2025-11-14T16:19:25 IST" duration-ms="2631">
+    </test> <!-- CucumberTests-iPhone -->
+    <test started-at="2025-11-14T16:09:06 IST" name="CucumberTests-Edge" finished-at="2025-11-14T16:10:32 IST" duration-ms="85877">
       <class name="com.elpais.runners.CucumberTestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.elpais.runners.CucumberTestRunner@15de0b3c]" started-at="2025-11-14T16:19:23 IST" name="setUpClass" finished-at="2025-11-14T16:19:23 IST" duration-ms="397" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.elpais.runners.CucumberTestRunner@c86b9e3]" started-at="2025-11-14T16:09:06 IST" name="setUpClass" finished-at="2025-11-14T16:09:06 IST" duration-ms="417" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@1bb266b3]]>
+                <![CDATA[org.testng.TestRunner@34f7cfd9]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.elpais.runners.CucumberTestRunner@15de0b3c]" started-at="2025-11-14T16:19:23 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-14T16:19:25 IST" duration-ms="2173" status="FAIL">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.elpais.runners.CucumberTestRunner@c86b9e3]" started-at="2025-11-14T16:09:06 IST" name="setBrowser" finished-at="2025-11-14T16:09:06 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.elpais.runners.CucumberTestRunner@c86b9e3]" started-at="2025-11-14T16:09:06 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-14T16:10:31 IST" duration-ms="85348" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -518,99 +141,106 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-TD6O78B', ip: '192.168.29.31']]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-TD6O78B', ip: '192.168.29.31'
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:152)
-at com.elpais.utils.DriverFactory.createRemoteDriver(DriverFactory.java:148)
-at com.elpais.utils.DriverFactory.getDriver(DriverFactory.java:86)
-at com.elpais.services.ArticleScrapingService.<init>(ArticleScrapingService.java:32)
-at com.elpais.steps.HomeSteps.openWebsiteInLanguage(HomeSteps.java:21)
-at com.elpais.steps.HomeSteps.openWebsiteInLanguageNumbered(HomeSteps.java:31)
-at ✽.[Step 1] I open the "elpais.com" website in "es" language(file:///C:/Users/Pc/Downloads/ELPais/ELPais/src/test/resources/features/el_pais_scrape.feature:8)
-Caused by: org.openqa.selenium.WebDriverException: Automate testing time expired.
-Build info: version: '4.25.0', revision: '8a8aea2337'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: driver.version: RemoteWebDriver
-remote stacktrace: 
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:59)
-at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:31)
-at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:120)
-at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-at java.base/java.util.stream.Streams$StreamBuilderImpl.tryAdvance(Streams.java:397)
-at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
-at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
-at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
-at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:122)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:152)
-at com.elpais.utils.DriverFactory.createRemoteDriver(DriverFactory.java:148)
-at com.elpais.utils.DriverFactory.getDriver(DriverFactory.java:86)
-at com.elpais.services.ArticleScrapingService.<init>(ArticleScrapingService.java:32)
-at com.elpais.steps.HomeSteps.openWebsiteInLanguage(HomeSteps.java:21)
-at com.elpais.steps.HomeSteps.openWebsiteInLanguageNumbered(HomeSteps.java:31)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
-at io.cucumber.java.Invoker.invoke(Invoker.java:24)
-at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
-at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
-at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
-at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
-at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
-at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
-at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
-at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
-at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
-at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
-at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
-at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
-at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.elpais.runners.CucumberTestRunner@15de0b3c]" started-at="2025-11-14T16:19:25 IST" name="tearDownClass" finished-at="2025-11-14T16:19:25 IST" duration-ms="20" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.elpais.runners.CucumberTestRunner@c86b9e3]" started-at="2025-11-14T16:10:31 IST" name="tearDownClass" finished-at="2025-11-14T16:10:32 IST" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.elpais.runners.CucumberTestRunner -->
+    </test> <!-- CucumberTests-Edge -->
+    <test started-at="2025-11-14T16:09:06 IST" name="CucumberTests-Chrome" finished-at="2025-11-14T16:10:32 IST" duration-ms="85879">
+      <class name="com.elpais.runners.CucumberTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.elpais.runners.CucumberTestRunner@7c9d8e2]" started-at="2025-11-14T16:09:06 IST" name="setUpClass" finished-at="2025-11-14T16:09:06 IST" duration-ms="418" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6b8ca3c8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.elpais.runners.CucumberTestRunner@7c9d8e2]" started-at="2025-11-14T16:09:06 IST" name="setBrowser" finished-at="2025-11-14T16:09:06 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.elpais.runners.CucumberTestRunner@7c9d8e2]" started-at="2025-11-14T16:09:06 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-14T16:10:31 IST" duration-ms="85348" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scrape 5 articles from Opinión, translate es -> en, analyze repeated words >= 2"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Scrape and analyze El País Opinión articles"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.elpais.runners.CucumberTestRunner@7c9d8e2]" started-at="2025-11-14T16:10:31 IST" name="tearDownClass" finished-at="2025-11-14T16:10:32 IST" duration-ms="61" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- com.elpais.runners.CucumberTestRunner -->
     </test> <!-- CucumberTests-Chrome -->
+    <test started-at="2025-11-14T16:09:06 IST" name="CucumberTests-Firefox" finished-at="2025-11-14T16:10:37 IST" duration-ms="91796">
+      <class name="com.elpais.runners.CucumberTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.elpais.runners.CucumberTestRunner@e4487af]" started-at="2025-11-14T16:09:06 IST" name="setUpClass" finished-at="2025-11-14T16:09:06 IST" duration-ms="418" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@68c72235]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.elpais.runners.CucumberTestRunner@e4487af]" started-at="2025-11-14T16:09:06 IST" name="setBrowser" finished-at="2025-11-14T16:09:06 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.elpais.runners.CucumberTestRunner@e4487af]" started-at="2025-11-14T16:09:06 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-14T16:10:37 IST" duration-ms="91318" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scrape 5 articles from Opinión, translate es -> en, analyze repeated words >= 2"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Scrape and analyze El País Opinión articles"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.elpais.runners.CucumberTestRunner@e4487af]" started-at="2025-11-14T16:10:37 IST" name="tearDownClass" finished-at="2025-11-14T16:10:37 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.elpais.runners.CucumberTestRunner -->
+    </test> <!-- CucumberTests-Firefox -->
   </suite> <!-- CucumberSuite -->
 </testng-results>

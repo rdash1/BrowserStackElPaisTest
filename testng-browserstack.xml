@@ -1,5 +1,9 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 <suite name="CucumberSuite" parallel="tests" thread-count="5">
+    <listeners>
+        <listener class-name="com.elpais.utils.BrowserStackListener"/>
+    </listeners>
+    
     <test name="CucumberTests-Chrome">
         <parameter name="browser" value="chrome"/>
         <classes>
