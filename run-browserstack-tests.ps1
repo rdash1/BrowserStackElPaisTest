@@ -2,8 +2,8 @@
 # This script sets up environment variables and runs tests on BrowserStack
 
 # Set BrowserStack credentials
-$env:BROWSERSTACK_USERNAME = "rasmiranjandash_ibBsth"
-$env:BROWSERSTACK_ACCESS_KEY = "QdywxBfmSRqiJvkrpyGz"
+$env:BROWSERSTACK_USERNAME = "username"
+$env:BROWSERSTACK_ACCESS_KEY = "AccessKey"
 $env:BROWSERSTACK_HUB = "https://hub.browserstack.com/wd/hub"
 
 # Optional: Enable debugging
