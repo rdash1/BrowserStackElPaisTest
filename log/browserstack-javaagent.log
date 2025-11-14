@@ -1,0 +1,7 @@
+19:07:38.327 [main] TRACE c.b.config.BrowserStackConfig - isGaugeTestOpsSession called with testObservabilityExplicit: false, framework: null, returning: false
+19:08:56.364 [main] TRACE c.b.config.BrowserStackConfig - isGaugeTestOpsSession called with testObservabilityExplicit: false, framework: null, returning: false
+19:18:06.584 [main] TRACE c.b.config.BrowserStackConfig - isGaugeTestOpsSession called with testObservabilityExplicit: false, framework: null, returning: false
+19:19:09.286 [main] TRACE c.b.config.BrowserStackConfig - isGaugeTestOpsSession called with testObservabilityExplicit: false, framework: null, returning: false
+19:19:12.247 [main] TRACE c.b.config.BrowserStackConfig - isGaugeTestOpsSession called with testObservabilityExplicit: false, framework: null, returning: false
+19:31:26.369 [main] TRACE c.b.config.BrowserStackConfig - isGaugeTestOpsSession called with testObservabilityExplicit: false, framework: null, returning: false
+19:32:04.913 [main] TRACE c.b.config.BrowserStackConfig - isGaugeTestOpsSession called with testObservabilityExplicit: false, framework: null, returning: false

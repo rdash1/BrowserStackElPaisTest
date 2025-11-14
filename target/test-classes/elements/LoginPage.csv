@@ -1,0 +1,6 @@
+name,type,value
+usernameField,css,input[name='username'], 
+passwordField,css,input[name='password']
+submitButton,css,button[type='submit']
+
+

@@ -1,0 +1,7 @@
+name,type,value
+title,css,h1
+bodyParagraphs,css,article p
+fallbackParagraphs,css,div[itemprop='articleBody'] p
+metaOgImage,css,meta[property='og:image']
+
+

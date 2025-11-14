@@ -1,0 +1,5 @@
+name,type,value
+acceptCookiesButton,xpath,//button[@id='didomi-notice-agree-button' or contains(@aria-label,'Aceptar') or contains(@aria-label,'Acepto')]
+opinionLink,xpath,//a[normalize-space()='Opinión' or contains(@href,'/opinion/')]
+
+

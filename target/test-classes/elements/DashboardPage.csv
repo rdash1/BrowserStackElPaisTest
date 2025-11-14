@@ -1,0 +1,4 @@
+name,type,value
+managedApplicationCount,css,[data-testid='managed-application-count'], 
+
+
